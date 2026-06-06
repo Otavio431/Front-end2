@@ -1,0 +1,20 @@
+{
+  "name": "site-base",
+  "version": "1.0.0",
+  "description": "Base de site reutilizável com Express + Firebase + auto-install de dependências",
+  "main": "server.js",
+  "scripts": {
+    "start": "node install-and-start.js",
+    "dev": "node install-and-start.js",
+    "server": "node server.js"
+  },
+  "keywords": ["base", "express", "firebase", "template"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.1.0"
+  }
+}
